@@ -1,4 +1,0 @@
-whosthere
-=========
-
-arduino/rpi project
