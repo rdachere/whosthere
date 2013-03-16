@@ -7,8 +7,8 @@ import optparse
 import sys
  
 # Find these values at https://twilio.com/user/account
-account_sid = "AC881136e202156d7824993ec5b836aee8"
-auth_token = "89e640bdf91556f21bad7f3254da87ec"
+account_sid = "account id"
+auth_token = "your auth token"
 client = TwilioRestClient(account_sid, auth_token)
  
 parser = optparse.OptionParser()
