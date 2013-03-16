@@ -27,5 +27,5 @@ if options.sms_url == "spam":
 print '\n\n ************************ SENDING SMS WITH URL: ', options.sms_url ," *************************\n\n"
 
 body_url = "Visitor @FrontDoor: " + options.sms_url
-message = client.sms.messages.create(to="+14083483184", from_="+14084588509",
+message = client.sms.messages.create(to="+XXXYYYZZZZ", from_="+XXXYYYZZZZ",
                                      body=body_url)
